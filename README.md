@@ -3,7 +3,7 @@
 ## Lancer le programme  
 Télécharger le projet
 ```sh
-git clone https://github.com/mathieuchevet2/i-love-forms
+git clone https://github.com/mathieuchevet2/backend.git
 ```
 Installer les gems
 ```sh
