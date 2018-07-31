@@ -17,7 +17,7 @@ Lancer le serveur
 ```sh
 rails server
 ```
-[Lien vers le localhost](https://localhost:3000/)
+[Lien vers le localhost](https://localhost:3000/)<br>
 [Lien vers le heroku](https://backends2.herokuapp.com)
 ## Table  
 
