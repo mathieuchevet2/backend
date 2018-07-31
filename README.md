@@ -1,24 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Lancer le programme  
+Télécharger le projet
+```sh
+git clone https://github.com/mathieuchevet2/i-love-forms
+```
+Installer les gems
+```sh
+bundle install --without production
+```
+Genérer la base de donnée
+```sh
+rails db:migrate
+```
+Lancer le serveur 
+```sh
+rails server
+```
+[Lien vers le localhost](https://localhost:3000/)
+[Lien vers le heroku](https://backends2.herokuapp.com)
+## Table  
 
-Things you may want to cover:
+Le projet ne comporte qu'une seule table: 
+<ul>
+       <li> La table Users </li>
+       <li>. 3 colonnes username, email et bio </li>
+</ul>
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+|       Users            	|
+| :------------------------:|
+| ***username*** `:string`  |
+| ***email***  `:string` 	|
+| ***bio***    `:text`    	|
