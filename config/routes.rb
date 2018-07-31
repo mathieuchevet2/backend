@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get '/users_controller', to: 'static_pages#new'
   post '/users_controller', to: 'static_pages#new_user'
 
-  get '/user/:id', to: 'static_pages#show'
+  get '/user/:username', to: 'static_pages#show'
   get '/erreur', to: 'static_pages#erreur'
 
 
